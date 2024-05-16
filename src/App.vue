@@ -25,4 +25,6 @@ export default {
   <AppFooter />
 </template>
 
+<!-- salve gruppo 9 -->
+
 <style scoped lang="scss"></style>
