@@ -23,6 +23,8 @@ Eravamo in tre, con [wmancaniello](https://github.com/wmancaniello) e [SimoneMic
 
 Vue 3, Vue Router, Vite, Bootstrap 5, Sass, Font Awesome, Git in team.
 
+Claude Code, come assistente per questo README.
+
 ## Come provarlo
 
 ```bash
