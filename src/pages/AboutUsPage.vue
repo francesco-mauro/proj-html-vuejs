@@ -1,7 +1,8 @@
 <script>
-    export default {
+    // Caratteri della pagina, serviti dal progetto: prima erano dichiarati ma non caricati
+    import "../assets/fonts/fonts.css";
 
-    };
+    export default {};
 </script>
 
 <template>
@@ -26,48 +27,48 @@
                     <div class="row g-0">
                         <div class="col-6 my-hover-card">
                             <div class="img-container img-container-hero">
-                                <img src="../assets/img/banana.jpg" alt="Image 1" class="img-fluid my-hover-img">
+                                <img src="../assets/img/banana.jpg" alt="Bowl of fresh fruit with chocolate" class="img-fluid my-hover-img">
                             </div>
                         </div>
                         <div class="col-6 my-hover-card">
                             <div class="img-container img-container-hero">
-                                <img src="../assets/img/beans.jpg" alt="Image 2" class="img-fluid my-hover-img">
-                            </div>
-                        </div>
-                        <div class="col-6 my-hover-card">
-                            <div class="img-container img-container-hero">
-
-                                <img src="../assets/img/kimchi.jpg" alt="Image 3" class="img-fluid my-hover-img">
+                                <img src="../assets/img/beans.jpg" alt="Pan of greens, chickpeas and vegetables" class="img-fluid my-hover-img">
                             </div>
                         </div>
                         <div class="col-6 my-hover-card">
                             <div class="img-container img-container-hero">
 
-                                <img src="../assets/img/egg-fruit.jpg" alt="Image 4" class="img-fluid my-hover-img">
+                                <img src="../assets/img/kimchi.jpg" alt="Korean dishes with bibimbap and side dishes" class="img-fluid my-hover-img">
                             </div>
                         </div>
                         <div class="col-6 my-hover-card">
                             <div class="img-container img-container-hero">
 
-                                <img src="../assets/img/ice-cream.jpg" alt="Image 5" class="img-fluid my-hover-img">
+                                <img src="../assets/img/egg-fruit.jpg" alt="Breakfast table with waffles, eggs and fruit" class="img-fluid my-hover-img">
                             </div>
                         </div>
                         <div class="col-6 my-hover-card">
                             <div class="img-container img-container-hero">
 
-                                <img src="../assets/img/sushi.jpg" alt="Image 6" class="img-fluid my-hover-img">
+                                <img src="../assets/img/ice-cream.jpg" alt="Bowls of ice cream in different flavours" class="img-fluid my-hover-img">
                             </div>
                         </div>
                         <div class="col-6 my-hover-card">
                             <div class="img-container img-container-hero">
 
-                                <img src="../assets/img/drink.jpg" alt="Image 7" class="img-fluid my-hover-img">
+                                <img src="../assets/img/sushi.jpg" alt="Sushi rolls on wooden boards" class="img-fluid my-hover-img">
                             </div>
                         </div>
                         <div class="col-6 my-hover-card">
                             <div class="img-container img-container-hero">
 
-                                <img src="../assets/img/kimchi.jpg" alt="Image 8" class="img-fluid my-hover-img">
+                                <img src="../assets/img/drink.jpg" alt="Pink cocktail poured into a glass" class="img-fluid my-hover-img">
+                            </div>
+                        </div>
+                        <div class="col-6 my-hover-card">
+                            <div class="img-container img-container-hero">
+
+                                <img src="../assets/img/riso.jpg" alt="Grilled meat with rice on sizzling plates" class="img-fluid my-hover-img">
                             </div>
                         </div>
                     </div>
@@ -76,7 +77,7 @@
                 <div class="col-md-6">
                     <div class="row mb-5">
                         <div class="col-12">
-                            <h5>Our Story</h5>
+                            <h2 class="h5">Our Story</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent in varius ante. Sed
                                 quis luctus eros. Phasellus rutrum laoreet leo in consequat. Phasellus vel semper ante.
                                 Vivamus turpis purus, dapibus vitae ex a, varius ornare elit. Nullam eu purus congue,
@@ -87,7 +88,7 @@
                     </div>
                     <div class="row">
                         <div class="col-12">
-                            <h5>About Our Company</h5>
+                            <h2 class="h5">About Our Company</h2>
                             <p>Curabitur id nibh sit amet lectus efficitur tempus aliquet non ante. Aenean feugiat, enim
                                 suscipit dictum ullamcorper, tellus nunc mollis leo, vitae elementum lacus lorem tempor
                                 ante. Maecenas ac aliquet risus, nec fringilla sem. Nam sed nibh id arcu vestibulum
@@ -109,7 +110,7 @@
                         <div class="icon-text">
                             <i class="fa-solid fa-square-check custom-icon"></i>
                             <div>
-                                <h4>AUTHENTICITY</h4>
+                                <h3 class="h4">AUTHENTICITY</h3>
                                 <p>Aenean eu arcu sed velit mattis vehicula ac quis tellus. Suspendisse elementum justo
                                     neque, a tincidunt est congue quis.</p>
                             </div>
@@ -119,7 +120,7 @@
                         <div class="icon-text">
                             <i class="fa-solid fa-file-lines custom-icon"></i>
                             <div>
-                                <h4>REAL REVIEWS</h4>
+                                <h3 class="h4">REAL REVIEWS</h3>
                                 <p>Praesent erat eros, malesuada nec augue non, aliquet finibus orci. Duis vitae cursus
                                     tortor. Suspendisse blandit volutpat.</p>
                             </div>
@@ -129,7 +130,7 @@
                         <div class="icon-text">
                             <i class="fa-solid fa-utensils custom-icon"></i>
                             <div>
-                                <h4>UNIQUE RECIPES</h4>
+                                <h3 class="h4">UNIQUE RECIPES</h3>
                                 <p>Donec vel volutpat erat. Sed in nulla vitae elit accumsan tempus. Aliquam dapibus
                                     ligula gravida, blandit enim ac, sagittis justo.</p>
                             </div>
@@ -143,17 +144,17 @@
         <!-- ------------------ ACHIEVEMENTS ------------------>
         <div class="achievements-section my-5">
             <div class="container">
-                <h5 class="text-center mb-3">OUR ACHIEVEMENTS</h5>
+                <h2 class="h5 text-center mb-3">OUR ACHIEVEMENTS</h2>
                 <p class="text-center mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent in varius
                     ante. Sed quis luctus eros. Phasellus rutrum laoreet leo in consequat.</p>
                 <div class="row text-center">
                     <div class="col-md-4 mb-4">
                         <div class="card my-hover-card">
                             <div class="img-container">
-                                <img src="../assets/img/achievment-1.jpg" class="card-img-top my-hover-img" alt="Award">
+                                <img src="../assets/img/achievment-1.jpg" class="card-img-top my-hover-img" alt="Award plaque">
                             </div>
                             <div class="card-body">
-                                <h5 class="card-title">Best Food Blog of 2018</h5>
+                                <h3 class="h5 card-title">Best Food Blog of 2018</h3>
                                 <p class="card-text">Praesent quam magna, varius in laoreet in, condimentum at augue.
                                     Suspendisse viverra scelerisque lacus.</p>
                             </div>
@@ -163,10 +164,10 @@
                         <div class="card my-hover-card">
                             <div class="img-container">
                                 <img src="../assets/img/achievment-2.jpg" class="card-img-top my-hover-img"
-                                    alt="Trophy">
+                                    alt="Trophy on a shelf">
                             </div>
                             <div class="card-body">
-                                <h5 class="card-title">Break-Through Recipe #1</h5>
+                                <h3 class="h5 card-title">Break-Through Recipe #1</h3>
                                 <p class="card-text">Praesent quam magna, varius in laoreet in, condimentum at augue.
                                     Suspendisse viverra scelerisque lacus.</p>
                             </div>
@@ -176,10 +177,10 @@
                         <div class="card my-hover-card">
                             <div class="img-container">
                                 <img src="../assets/img/achievment-3.jpg" class="card-img-top my-hover-img"
-                                    alt="Waffle">
+                                    alt="Heart-shaped waffle">
                             </div>
                             <div class="card-body">
-                                <h5 class="card-title">Best Food Blog of 2018</h5>
+                                <h3 class="h5 card-title">Best Food Blog of 2018</h3>
                                 <p class="card-text">Praesent quam magna, varius in laoreet in, condimentum at augue.
                                     Suspendisse viverra scelerisque lacus.</p>
                             </div>
@@ -192,14 +193,14 @@
         <!------------------ Sezione Testimonials ------------------>
         <div class="testimonials-section my-5">
             <div class="container">
-                <h5 class="text-center mb-5">TESTIMONIALS</h5>
+                <h2 class="h5 text-center mb-5">TESTIMONIALS</h2>
                 <p class="text-center mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent in varius
                     ante. Sed quis luctus eros. Phasellus rutrum laoreet leo in consequat.</p>
                 <div class="row">
                     <div class="col-md-6">
                         <div class="card mb-4 text-center p-4">
                             <img src="../assets/img/Testimonials-1.jpg" class="rounded-circle mx-auto d-block mb-3"
-                                alt="Testimonial">
+                                alt="Jean Valdez">
                             <div class="quote mb-0">
                                 <p>Nulla vehicula urna vel velit porttitor, ac auctor sem efficitur.
                                     Praesent eleifend ante nec condimentum accumsan. Nam elit enim, rhoncus quis
@@ -209,16 +210,11 @@
                                         CompanyName</cite></footer>
                             </div>
                         </div>
-                        <div class="d-flex justify-content-center">
-                            <span class="testimonial-dot active"></span>
-                            <span class="testimonial-dot"></span>
-                            <span class="testimonial-dot"></span>
-                        </div>
                     </div>
                     <div class="col-md-6">
                         <div class="card mb-4 p-4 d-flex flex-row align-items-center testimonial-quote">
                             <img src="../assets/img/Avada-review-1.png" class="rounded-circle mr-3 testimonial-pic"
-                                alt="Testimonial">
+                                alt="Avada Food Review logo">
                             <div class="quote mb-0 flex-grow-1">
                                 <p>One of the best food blog of 2018 about organic food and unique recipes.
                                     Proin vel iaculis turpis.</p>
@@ -228,7 +224,7 @@
                         </div>
                         <div class="card mb-4 p-4 d-flex flex-row align-items-center testimonial-quote">
                             <img src="../assets/img/Avada-review-2.webp" class="rounded-circle mr-3 testimonial-pic"
-                                alt="Testimonial">
+                                alt="Avada Food Review badge">
                             <div class="quote mb-0 flex-grow-1">
                                 <p>Best blog for American Recipes and very good for learning cookings for
                                     anyone. Praesent id tempus sem.</p>
@@ -256,7 +252,7 @@
                                     alt="Wayne Barnett">
                             </div>
                             <div class="card-body">
-                                <h5 class="card-title">Wayne Barnett</h5>
+                                <h3 class="h5 card-title">Wayne Barnett</h3>
                                 <p class="card-text">Founder & CEO</p>
                             </div>
                         </div>
@@ -269,7 +265,7 @@
                                     alt="Angela Caroll">
                             </div>
                             <div class="card-body">
-                                <h5 class="card-title">Angela Caroll</h5>
+                                <h3 class="h5 card-title">Angela Caroll</h3>
                                 <p class="card-text">Chief Editor</p>
                             </div>
                         </div>
@@ -282,7 +278,7 @@
                                     alt="Walter Gordon">
                             </div>
                             <div class="card-body">
-                                <h5 class="card-title">Walter Gordon</h5>
+                                <h3 class="h5 card-title">Walter Gordon</h3>
                                 <p class="card-text">Head of Recipes</p>
                             </div>
                         </div>
@@ -297,7 +293,7 @@
                                     alt="Angela Lopez">
                             </div>
                             <div class="card-body">
-                                <h5 class="card-title">Angela Lopez</h5>
+                                <h3 class="h5 card-title">Angela Lopez</h3>
                                 <p class="card-text">Junior Chef</p>
                             </div>
                         </div>
@@ -310,7 +306,7 @@
                                     alt="Scott Estrada">
                             </div>
                             <div class="card-body">
-                                <h5 class="card-title">Scott Estrada</h5>
+                                <h3 class="h5 card-title">Scott Estrada</h3>
                                 <p class="card-text">Developer</p>
                             </div>
                         </div>
@@ -323,7 +319,7 @@
                                     alt="Barbara Ramos">
                             </div>
                             <div class="card-body">
-                                <h5 class="card-title">Barbara Ramos</h5>
+                                <h3 class="h5 card-title">Barbara Ramos</h3>
                                 <p class="card-text">Graphic Designer</p>
                             </div>
                         </div>
@@ -339,7 +335,7 @@
                 <p class="pb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent in varius ante. Sed
                     quis luctus
                     eros. Phasellus rutrum laoreet leo in consequat.</p>
-                <a href="#" class="btn btn-primary">Contact Us</a>
+                <router-link :to="{ name: 'contacts' }" class="btn btn-primary">Contact Us</router-link>
                 <p class="pt-3">Include your resume and portfolio link in the e-mail</p>
             </div>
         </div>
@@ -350,22 +346,9 @@
 
 <style scoped lang="scss">
     /* ------------------------------ TAGS GENERAlI ------------------------------ */
-    h2 {
+    .writers-section h2 {
         font-family: 'Playfair Display', serif;
         color: #333;
-    }
-
-    h3 {
-        font-family: 'Playfair Display', serif;
-        font-size: 2rem;
-        margin-bottom: 0.5rem;
-        color: #fc7523;
-    }
-
-    h4 {
-        font-family: 'Playfair Display', serif;
-        font-weight: bold;
-        margin-bottom: 15px;
     }
 
     p {
@@ -479,8 +462,9 @@
         color: #4e4a45;
     }
 
-    .icon-text h4 {
+    .icon-text h3 {
         font-family: 'Playfair Display', serif;
+        font-weight: bold;
         margin-bottom: 5px;
         margin-top: 0;
         font-size: 1.2em;
@@ -541,19 +525,6 @@
         border-radius: 50%;
         object-fit: cover;
         margin-right: 15px;
-    }
-
-    .testimonial-dot {
-        width: 10px;
-        height: 10px;
-        background-color: lightgrey;
-        border-radius: 50%;
-        margin: 0 5px;
-        cursor: pointer;
-    }
-
-    .testimonial-dot.active {
-        background-color: #fc7523;
     }
 
     .quote footer {

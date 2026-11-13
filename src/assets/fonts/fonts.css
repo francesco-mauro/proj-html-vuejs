@@ -1,0 +1,16 @@
+/* Caratteri delle pagine, solo l'alfabeto latino. Licenza SIL Open Font License, testi in questa cartella. */
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400 900;
+  font-display: swap;
+  src: url('./playfair-display-latin.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('./roboto-latin-400.woff2') format('woff2');
+}
