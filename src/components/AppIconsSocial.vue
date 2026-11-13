@@ -5,23 +5,23 @@ export default {};
 <template>
   <div class="wrapper">
     <div class="icon facebook">
-      <div class="ms_tooltip">Facebook</div>
-      <span><a href="https://www.facebook.com/ThemeFusion-101565403356430/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></span>
+      <div class="ms_tooltip" aria-hidden="true">Facebook</div>
+      <span><a href="https://www.facebook.com/ThemeFusion-101565403356430/" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fa-brands fa-facebook-f" aria-hidden="true"></i></a></span>
     </div>
 
     <div class="icon instagram">
-      <div class="ms_tooltip">Instagram</div>
-      <span><a href="https://www.instagram.com/themefusion/" target="_blank"><i class="fa-brands fa-instagram"></i></a></span>
+      <div class="ms_tooltip" aria-hidden="true">Instagram</div>
+      <span><a href="https://www.instagram.com/themefusion/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a></span>
     </div>
 
     <div class="icon twitter">
-      <div class="ms_tooltip">X</div>
-      <span><a href="https://twitter.com/theme_fusion" target="_blank"><i class="fa-brands fa-x-twitter"></i></a></span>
+      <div class="ms_tooltip" aria-hidden="true">X</div>
+      <span><a href="https://twitter.com/theme_fusion" target="_blank" rel="noopener noreferrer" aria-label="X (Twitter)"><i class="fa-brands fa-x-twitter" aria-hidden="true"></i></a></span>
     </div>
 
     <div class="icon youtube">
-      <div class="ms_tooltip">YouTube</div>
-      <span><a href="https://www.youtube.com/@AvadaVideos" target="_blank"><i class="fa-brands fa-youtube"></i></a></span>
+      <div class="ms_tooltip" aria-hidden="true">YouTube</div>
+      <span><a href="https://www.youtube.com/@AvadaVideos" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><i class="fa-brands fa-youtube" aria-hidden="true"></i></a></span>
     </div>
   </div>
 </template>
@@ -100,7 +100,7 @@ a {
   transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
-.wrapper .icone:hover span,
+.wrapper .icon:hover span,
 .wrapper .icon:hover .ms_tooltip {
   text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.4);
 }
