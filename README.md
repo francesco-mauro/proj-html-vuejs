@@ -28,7 +28,7 @@ Eravamo in tre, con [wmancaniello](https://github.com/wmancaniello) e [SimoneMic
 Ripreso a novembre 2026 per pubblicarlo online.
 
 - **Nella mia parte:** sul telefono l'intestazione va in colonna e il menu va a capo (prima usciva dallo schermo da tutti e due i lati), «Contact Us» porta ai contatti, il logo usa il router, le icone social hanno un nome per gli screen reader, i titoli sono in ordine, le immagini hanno testi alternativi veri e i caratteri della pagina vengono caricati davvero. Tolti la lente di ricerca e i puntini dei testimonial, che sembravano cliccabili e non facevano niente.
-- **Nel resto del sito:** le immagini delle card in home ora si vedono anche dopo la build, la pagina non scorre più di lato (sul telefono la home sconfinava di 351 pixel) e i due pulsanti fissi a destra non coprono più il menu sul telefono. Le foto sono state alleggerite (da 12,8 MB a 2,6 MB in totale), le immagini prima prese dal sito di Avada ora stanno nel repository e il link condiviso mostra un'anteprima.
+- **Nel resto del sito:** le immagini delle card in home ora si vedono anche dopo la build, la pagina non scorre più di lato (sul telefono la home sconfinava di 351 pixel) e i due pulsanti fissi a destra non coprono più il menu sul telefono. Le foto sono state alleggerite (da 13,4 MB a 2,7 MB in totale), le immagini prima prese dal sito di Avada ora stanno nel repository e il link condiviso mostra un'anteprima.
 - **Pubblicazione:** GitHub Pages, costruito da GitHub Actions a ogni push.
 
 ## Strumenti
