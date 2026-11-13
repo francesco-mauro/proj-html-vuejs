@@ -3,10 +3,12 @@ export default {};
 </script>
 
 <template>
-  <a href="#" class="top-btn">
+  <!-- Pulsanti decorativi della replica di Avada: non portano da nessuna parte,
+       quindi fuori dalla tastiera e dagli screen reader, e niente salto in cima al clic -->
+  <a href="#" class="top-btn" aria-hidden="true" tabindex="-1" @click.prevent>
     <i class="fa-solid fa-folder-plus"></i>
   </a>
-  <a href="#" class="bottom-btn">
+  <a href="#" class="bottom-btn" aria-hidden="true" tabindex="-1" @click.prevent>
     <i class="fa-solid fa-cart-shopping"></i>
   </a>
 </template>
@@ -49,6 +51,14 @@ export default {};
   i {
     font-size: 1.6rem;
     color: #33465B;
+  }
+}
+
+/* Sotto i 992px il menu va su più righe e i pulsanti fissi coprivano «Blog»: li nascondiamo */
+@media (max-width: 991.98px) {
+  .top-btn,
+  .bottom-btn {
+    display: none;
   }
 }
 

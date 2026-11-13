@@ -3,6 +3,13 @@ import AppOrangeButton from "../components/AppOrangeButton.vue";
 import AppIconsSocial from "../components/AppIconsSocial.vue";
 import AppCards from "../components/AppCards.vue";
 import AppCardsList from "../components/AppCardsList.vue";
+// Le immagini delle card importate: con il percorso scritto come testo, dopo la build non si trovavano
+import banana from "../assets/img/banana.jpg";
+import eggFruit from "../assets/img/egg-fruit.jpg";
+import iceCream from "../assets/img/ice-cream.jpg";
+import summerDrink from "../assets/img/summer-drink.jpg";
+import fruitVegetables from "../assets/img/fruit-vegetables.jpg";
+import drink from "../assets/img/drink.jpg";
 
 
 export default {
@@ -17,27 +24,27 @@ export default {
       cardsArray: [
         {
           title: "Fruit Platter with Banana, Mango, Berries and Orange",
-          image: "src/assets/img/banana.jpg",
+          image: banana,
         },
         {
           title: "Breakfast Delight With Strawberry, Egg and Fruit",
-          image: "src/assets/img/egg-fruit.jpg",
+          image: eggFruit,
         },
         {
           title: "Ice Cream Heaven With Vanilla, Chocolate and Pistachio",
-          image: "src/assets/img/ice-cream.jpg",
+          image: iceCream,
         },
         {
           title: "Video Recipe: How to make a Summer Drink Cool",
-          image: "src/assets/img/summer-drink.jpg",
+          image: summerDrink,
         },
         {
           title: "Ketogenic Diet Recipe with Avocado",
-          image: "src/assets/img/fruit-vegetables.jpg",
+          image: fruitVegetables,
         },
         {
           title: "Video Recipe: The perfect Cosmopolitan",
-          image: "src/assets/img/drink.jpg",
+          image: drink,
         },
       ],
     };
@@ -50,7 +57,8 @@ export default {
   <div
     class="container-fluid ms-home-bg p-0 justify-content-center align-item-center"
   >
-    <div class="row justify-content-center">
+    <!-- mx-0: il container è senza padding, i margini negativi della riga facevano scorrere la pagina -->
+    <div class="row mx-0 justify-content-center">
       <div class="col-12">
         <div class="text-center p-4">
           <a href="#" class="ms-btn-home btn btn-primary btn-lg rounded-0"
@@ -664,8 +672,12 @@ a {
   }
 }
 
-.ms_width {
-  width: 200%;
+/* la riga di card sotto la colonna occupa tutta la larghezza: solo quando le colonne sono affiancate,
+   sul telefono la colonna è già larga quanto lo schermo e il 200% la faceva uscire di lato */
+@media (min-width: 576px) {
+  .ms_width {
+    width: 200%;
+  }
 }
 
 /*ROUNDED IMG */

@@ -86,7 +86,8 @@ export default {
     <!-- FOOTER DOWN -->
 
     <!-- Section 1 -->
-    <div class="row justify-content-around text-center text-md-start">
+    <!-- mx-0: la riga non sta in un container, senza i margini negativi la pagina non scorre di lato -->
+    <div class="row mx-0 justify-content-around text-center text-md-start">
       <div class="col-md-3 text-center">
         <div class="mb-4">
           <img
@@ -203,6 +204,8 @@ export default {
 
 .ms_footer {
   background-color: #fff;
+  // la barretta arancione dei link (nascosta, ma conta) sporgeva di qualche pixel e la pagina scorreva di lato
+  overflow-x: clip;
 }
 
 // /Immagini TOP FOOTER
@@ -218,6 +221,7 @@ export default {
 
 .ms_logo {
   width: 200px;
+  max-width: 100%; // a 768px la colonna è più stretta di 200px
   height: auto;
 }
 
