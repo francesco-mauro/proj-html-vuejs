@@ -40,9 +40,9 @@
 
 <template>
   <div class="ivory-background px-4"> <!-- Aggiunta classe ivory-background -->
-    <header class="d-flex flex-wrap justify-content-between align-items-start pt-3 px-5 full-width">
+    <header class="d-flex flex-wrap justify-content-between align-items-start pt-3 px-lg-5 full-width site-header">
       <!-- ------------------LINKS DOWNLOAD APP, ADVERTISE------------------ -->
-      <div class="d-flex align-items-start w-30 ms-5">
+      <div class="d-flex align-items-start w-30 ms-lg-5 header-links">
         <a href="https://1.envato.market/qjLX5" class="nav-link orange-hover">Download App <span
             class="badge ios-orange text-white">iOS</span> </a>
         <a href="https://1.envato.market/qjLX5" class="nav-link ms-3 orange-hover">Advertise with us</a>
@@ -50,39 +50,31 @@
       <!-- ------------------LINKS DOWNLOAD APP, ADVERTISE------------------ -->
 
       <!-- ------------------Logo------------------ -->
-      <div class="d-flex align-items-center">
-        <a href="/"
+      <div class="d-flex align-items-center header-logo">
+        <router-link :to="{ name: 'home' }"
           class="d-flex align-items-center mx-auto mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-          <img src="https://avada.website/food/wp-content/uploads/sites/118/2021/04/avada-food-logo.svg"
-            alt="Avada Food" width="40" height="32" class="logo"></a>
+          <img src="../assets/img/avada-food-logo.svg" alt="Avada Food, home page" width="40" height="32" class="logo">
+        </router-link>
       </div>
-
-
       <!-- ------------------Logo------------------ -->
 
       <!-- ------------------Social media links------------------ -->
-      <div class="d-flex justify-content-end align-items-start w-30 my-wrapper me-5">
+      <div class="d-flex justify-content-end align-items-start w-30 my-wrapper me-lg-5 header-social">
         <AppIconsSocial />
       </div>
       <!-- ------------------Social media links------------------ -->
     </header>
 
     <!-- NavICONS -->
-    <div class="d-flex gap-2 justify-content-center pt-4 nav-icons">
-      <ul class="d-flex">
-        <li v-for="item in menu" :key="item" class="mb-3">
+    <nav class="d-flex gap-2 justify-content-center pt-4 nav-icons" aria-label="Main menu">
+      <ul class="d-flex flex-wrap justify-content-center">
+        <li v-for="item in menu" :key="item.routeName" class="mb-3">
           <router-link :to="{ name: item.routeName }" class="ms_router-link">
             {{ item.title }}
           </router-link>
         </li>
-        <li>
-          <a class="btn"><i class="fa-solid fa-magnifying-glass"></i></a> 
-        </li>
       </ul>
-      <!-- <router-link to="/" class="btn">Home</router-link>
-      <router-link to="/about" class="btn">About</router-link>
-      <router-link to="/contacts" class="btn">Contacts</router-link> -->
-    </div>
+    </nav>
     <!-- NavICONS -->
   </div>
 </template>
@@ -117,20 +109,6 @@
     color: #ff6600;
   }
 
-  .badge.bg-warning.text-dark {
-    background-color: #ff6600;
-    color: #fff;
-  }
-
-  .bi {
-    font-size: 1.5rem;
-    color: #6c757d;
-  }
-
-  .nav-link:hover .bi {
-    color: #ff6600;
-  }
-
   .ios-orange{
     background-color: #FA7523;
     color: white;
@@ -158,21 +136,11 @@
 
   .nav-icons ul {
     padding-left: 0;
+    column-gap: 20px;
   }
 
   .nav-icons ul li {
     list-style: none;
-    margin-right: 20px;
-  }
-
-  .nav-icons router-link {
-    height: 100vh;
-    width: 70vw;
-    min-width: 600px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    margin: auto;
   }
 
   .nav-icons a {
@@ -215,4 +183,44 @@
   }
 
   /* -----------------buttons--------------------- */
+
+  /* ------------------TABLET E TELEFONO------------------------- */
+  /* Sotto i 992px le tre parti dell'intestazione vanno in colonna, il logo per primo,
+     e il menu va a capo restando centrato: prima usciva dallo schermo da tutti e due i lati */
+
+  @media (max-width: 991.98px) {
+    .site-header {
+      flex-direction: column;
+      align-items: center !important;
+      gap: 12px;
+    }
+
+    .w-30 {
+      width: auto;
+    }
+
+    .header-logo {
+      order: -1;
+    }
+
+    .header-links .nav-link {
+      white-space: nowrap;
+    }
+
+    .nav-icons {
+      padding-top: 12px !important;
+    }
+  }
+
+  @media (max-width: 575.98px) {
+    .nav-icons ul {
+      column-gap: 4px;
+    }
+
+    .nav-icons a {
+      font-size: 16px;
+    }
+  }
+
+  /* ------------------TABLET E TELEFONO------------------------- */
 </style>
