@@ -1,0 +1,127 @@
+// Stile condiviso dalle pagine Recipes, Blog e Places: fascia in alto e griglia di card.
+// Non è "scoped" perché lo importano tre pagine; le classi iniziano tutte con ms-pg-.
+$ms-orange: #fc7523;
+
+.ms-pg-hero {
+  background-image: url("../assets/img/Avada-AboutUs-Background.png");
+  background-color: #67615a;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 260px;
+  padding: 3rem 1rem;
+  text-align: center;
+  color: #fff;
+
+  h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 3rem;
+    margin-bottom: 0.75rem;
+  }
+
+  p {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.2rem;
+    color: #d4d3d1;
+    max-width: 640px;
+    margin: 0 auto;
+  }
+}
+
+.ms-pg-grid {
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+}
+
+.ms-pg-card {
+  height: 100%;
+  background-color: #fff;
+  border: none;
+  border-radius: 0;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+  transition: box-shadow 0.4s, transform 0.4s;
+
+  &:hover {
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.18);
+    transform: translateY(-4px);
+  }
+
+  .ms-pg-img {
+    overflow: hidden;
+
+    img {
+      display: block;
+      width: 100%;
+      aspect-ratio: 3 / 2;
+      object-fit: cover;
+      transition: transform 0.6s;
+    }
+  }
+
+  &:hover .ms-pg-img img {
+    transform: scale(1.06);
+  }
+
+  .card-body {
+    font-family: "Roboto", sans-serif;
+  }
+
+  h2 {
+    font-family: "Playfair Display", serif;
+    font-size: 1.25rem;
+    line-height: 1.35;
+    color: #333;
+    transition: color 0.3s;
+  }
+
+  &:hover h2 {
+    color: $ms-orange;
+  }
+
+  p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #666;
+  }
+
+  .ms-pg-meta {
+    font-size: 13px;
+    color: #4e4a45;
+    margin-bottom: 0.5rem;
+
+    i {
+      color: $ms-orange;
+      margin-right: 0.35rem;
+    }
+  }
+
+  .ms-pg-tag {
+    display: inline-block;
+    background-color: #c8500a;
+    color: #fff;
+    font-size: 12px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    padding: 2px 10px;
+    margin-bottom: 0.75rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ms-pg-card,
+  .ms-pg-card .ms-pg-img img {
+    transition: none;
+  }
+
+  .ms-pg-card:hover,
+  .ms-pg-card:hover .ms-pg-img img {
+    transform: none;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .ms-pg-hero h1 {
+    font-size: 2.2rem;
+  }
+}
