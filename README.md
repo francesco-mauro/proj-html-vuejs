@@ -2,6 +2,8 @@
 
 **Prova la demo:** https://francesco-mauro.github.io/proj-html-vuejs/
 
+![Una scorsa alla home di Foodie Journal, poi la pagina Chi siamo e il ritorno alla home](docs/demo.gif)
+
 La replica di un sito di cucina in Vue.js, a partire dal tema Avada Food. Progetto di gruppo del Master Full Stack di Boolean, costruito in quattro giorni a maggio 2024.
 
 ## Cosa contiene
@@ -10,7 +12,7 @@ La replica di un sito di cucina in Vue.js, a partire dal tema Avada Food. Proget
 - **Chi siamo:** i valori del sito, gli autori e la sezione "We Are Hiring".
 - **Contatti:** pagina con i recapiti e il modulo.
 - **Navigazione** con Vue Router, pulsante per tornare in cima e pulsanti laterali fissi.
-- Ricette, Blog e Luoghi sono pagine segnaposto: il progetto si è fermato alla consegna.
+- **Ricette, Blog e Luoghi:** alla consegna erano pagine segnaposto, nel 2026 hanno avuto una pagina con le card.
 
 ## La mia parte
 
@@ -26,7 +28,7 @@ Eravamo in tre, con [wmancaniello](https://github.com/wmancaniello) e [SimoneMic
 Ripreso a novembre 2026 per pubblicarlo online.
 
 - **Nella mia parte:** sul telefono l'intestazione va in colonna e il menu va a capo (prima usciva dallo schermo da tutti e due i lati), «Contact Us» porta ai contatti, il logo usa il router, le icone social hanno un nome per gli screen reader, i titoli sono in ordine, le immagini hanno testi alternativi veri e i caratteri della pagina vengono caricati davvero. Tolti la lente di ricerca e i puntini dei testimonial, che sembravano cliccabili e non facevano niente.
-- **Nel resto del sito:** le immagini delle card in home ora si vedono anche dopo la build, la pagina non scorre più di lato (sul telefono la home sconfinava di 351 pixel) e i due pulsanti fissi a destra non coprono più il menu sul telefono.
+- **Nel resto del sito:** le immagini delle card in home ora si vedono anche dopo la build, la pagina non scorre più di lato (sul telefono la home sconfinava di 351 pixel) e i due pulsanti fissi a destra non coprono più il menu sul telefono. Le foto sono state alleggerite (da 12,8 MB a 2,6 MB in totale), le immagini prima prese dal sito di Avada ora stanno nel repository e il link condiviso mostra un'anteprima.
 - **Pubblicazione:** GitHub Pages, costruito da GitHub Actions a ogni push.
 
 ## Strumenti
