@@ -160,7 +160,7 @@ export default {
 
 <style lang="scss" scoped>
 .ms_bg-hero {
-  background-image: url(https://avada.website/food/wp-content/uploads/sites/118/2019/03/page-title-bar-bg-1.png);
+  background-image: url("../assets/img/Avada-AboutUs-Background.png");
   font-family: "Roboto", sans-serif;
   background-color: #67615a;
   background-size: cover;
@@ -177,7 +177,7 @@ export default {
 }
 
 .ms_bg-dx {
-  background-image: url(https://avada.website/food/wp-content/uploads/sites/118/2019/03/brooke-lark-186926-unsplash-1.jpg);
+  background-image: url("../assets/img/contacts-bg-brooke-lark.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

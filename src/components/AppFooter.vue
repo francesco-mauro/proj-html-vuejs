@@ -41,7 +41,7 @@ export default {
     <div class="d-flex flex-wrap mb-5">
       <div class="col-12 col-md-3 ms_image">
         <img
-          src="https://avada.website/food/wp-content/uploads/sites/118/2019/03/Mixed-fruits-1200x790.jpg"
+          src="../assets/img/banana.jpg"
           alt=""
           class="img-fluid"
         />
@@ -51,7 +51,7 @@ export default {
       </div>
       <div class="col-12 col-md-3 ms_image">
         <img
-          src="https://avada.website/food/wp-content/uploads/sites/118/2019/03/r-rachel-park-366508-unsplash-min-1200x790.jpg"
+          src="../assets/img/egg-fruit.jpg"
           alt=""
           class="img-fluid"
         />
@@ -61,7 +61,7 @@ export default {
       </div>
       <div class="col-12 col-md-3 ms_image">
         <img
-          src="https://avada.website/food/wp-content/uploads/sites/118/2019/03/r-michelle-tsang-500721-unsplash-min-1200x790.jpg"
+          src="../assets/img/ice-cream.jpg"
           alt=""
           class="img-fluid"
         />
@@ -71,7 +71,7 @@ export default {
       </div>
       <div class="col-12 col-md-3 ms_image">
         <img
-          src="https://avada.website/food/wp-content/uploads/sites/118/2019/09/quick-summer-drink.jpg"
+          src="../assets/img/summer-drink.jpg"
           alt=""
           class="img-fluid"
         />
@@ -91,7 +91,7 @@ export default {
       <div class="col-md-3 text-center">
         <div class="mb-4">
           <img
-            src="https://avada.website/food/wp-content/uploads/sites/118/2019/08/avada-food-logo-mob-2x.png"
+            src="../assets/img/footer-logo-mobile.png"
             alt="logo avada food"
             class="img-fluid ms_logo"
           />
@@ -156,14 +156,14 @@ export default {
           <!-- GooglePlay -->
           <a href="#">
             <img
-              src="https://avada.website/food/wp-content/uploads/sites/118/2019/09/download-android.png"
+              src="../assets/img/download-android.png"
               alt="GooglePlay"
               class="ms_logo"
           /></a>
           <!-- AppStore -->
           <a href="#">
             <img
-              src="https://avada.website/food/wp-content/uploads/sites/118/2019/09/download-app-store.png"
+              src="../assets/img/download-app-store.png"
               alt="AppStore"
               class="ms_logo"
             />
