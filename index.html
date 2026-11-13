@@ -16,6 +16,11 @@
     <meta property="og:image:alt" content="Home di Foodie Journal: il logo e il menu in alto, poi una scheda bianca con il titolo di un articolo sui ristoranti giapponesi, sopra un piatto azzurro su un tavolo di legno" />
     <meta property="og:locale" content="it_IT" />
     <meta name="twitter:card" content="summary_large_image" />
+    <!-- La foto dell'hero della home è la più grande cosa sopra la piega: senza questo il browser la scopre solo dopo
+         avere scaricato ed eseguito il JavaScript e il CSS. Il media deve restare uguale a quello di HomePage.vue.
+         Su una rotta diversa dalla home l'immagine scaricata non serve, ma è l'unico costo. -->
+    <link rel="preload" as="image" href="/src/assets/img/bg-1-mobile.webp" type="image/webp" media="(max-width: 575.98px)" />
+    <link rel="preload" as="image" href="/src/assets/img/bg-1.jpg" media="(min-width: 576px)" />
   </head>
   <body>
     <div id="app"></div>

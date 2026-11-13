@@ -8,7 +8,8 @@ export default {};
 
 <style scoped>
 .my-button {
-  background-color: #fc7523;
+  /* arancio scuro: con il testo bianco il #fc7523 dava 2,7:1, questo 4,6:1 */
+  background-color: #c8500a;
   color: white;
   padding: 10px 20px;
   font-size: 1rem;
@@ -17,6 +18,6 @@ export default {};
 }
 
 .my-button:hover {
-  background-color: #e3691f;
+  background-color: #a94207;
 }
 </style>

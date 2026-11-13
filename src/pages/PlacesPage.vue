@@ -81,7 +81,7 @@ export default {
       <div class="col-12 col-md-6 col-lg-4" v-for="place in places" :key="place.name">
         <article class="card ms-pg-card">
           <div class="ms-pg-img">
-            <img :src="place.image" :alt="place.alt" />
+            <img :src="place.image" :alt="place.alt" loading="lazy" decoding="async" />
           </div>
           <div class="card-body">
             <span class="ms-pg-tag">{{ place.kind }}</span>

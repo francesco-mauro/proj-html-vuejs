@@ -15,6 +15,10 @@ export default {
           :src="cardObj.image"
           alt=""
           class="img-fluid"
+          width="800"
+          height="527"
+          loading="lazy"
+          decoding="async"
         />
         <div class="ms_content">
           <p>{{ cardObj.title }}</p>

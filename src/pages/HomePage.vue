@@ -95,24 +95,24 @@ export default {
     <div class="row">
       <div class="col-md-4">
         <div class="card mb-4">
-          <img class="ms-img" src="../assets/img/sushi.jpg" alt="Sushi" />
+          <img class="ms-img" src="../assets/img/sushi.jpg" alt="Sushi" width="800" height="527" loading="lazy" decoding="async" />
           <div class="card-body">
-            <h5 class="card-title">
+            <h3 class="h5 card-title">
               <a href="">Food Corner: Top Japanese Restaurants for Sushi</a>
-            </h5>
+            </h3>
             <p class="card-text">March 25th, 2019</p>
           </div>
         </div>
       </div>
       <div class="col-md-4">
         <div class="card mb-4">
-          <img class="ms-img" src="../assets/img/riso.jpg" alt="Rice" />
+          <img class="ms-img" src="../assets/img/riso.jpg" alt="Rice" width="400" height="263" loading="lazy" decoding="async" />
           <div class="card-body">
-            <h5 class="card-title">
+            <h3 class="h5 card-title">
               <a href=""
                 >Roundup: My New Favourite Recipes For Healthy Living</a
               >
-            </h5>
+            </h3>
             <p class="card-text">March 25th, 2019</p>
           </div>
         </div>
@@ -123,11 +123,15 @@ export default {
             class="ms-img"
             src="../assets/img/kimchi.jpg"
             alt="Kimchi"
+            width="400"
+            height="263"
+            loading="lazy"
+            decoding="async"
           />
           <div class="card-body">
-            <h5 class="card-title">
+            <h3 class="h5 card-title">
               <a href="">Meal Prep: Korean Bibimbap with Kimchi</a>
-            </h5>
+            </h3>
             <p class="card-text">March 25th, 2019</p>
           </div>
         </div>
@@ -151,11 +155,11 @@ export default {
           <div class="col-md-6 mb-3">
             <div class="card">
               <!-- Contenuto della grande card -->
-              <img src="../assets/img/beans.jpg" alt="beans" />
+              <img class="img-fluid" src="../assets/img/beans.jpg" alt="beans" width="800" height="527" loading="lazy" decoding="async" />
               <div class="card-body">
-                <h5 class="card-title">
+                <h3 class="h5 card-title">
                   Lunch Favourite with Salad, Naan and Beans
-                </h5>
+                </h3>
                 <p class="card-text">
                   Suspendisse at semper odio. Nam fringilla scelerisque
                   tincidunt. Orci varius natoque penatibus et magnis dis
@@ -302,6 +306,10 @@ export default {
                 class="card-img-top"
                 src="../assets/img/cheese.webp"
                 alt="Cheese"
+                width="160"
+                height="160"
+                loading="lazy"
+                decoding="async"
               />
               <div class="card-body text-center">
                 <a href="" class="ms-btn-recipes btn btn-primary w-100"
@@ -316,6 +324,10 @@ export default {
                 class="card-img-top"
                 src="../assets/img/bakery.webp"
                 alt="Bakery"
+                width="160"
+                height="160"
+                loading="lazy"
+                decoding="async"
               />
               <div class="card-body text-center">
                 <a href="/" class="ms-btn-recipes btn btn-primary w-100"
@@ -330,6 +342,10 @@ export default {
                 class="card-img-top mx-auto"
                 src="../assets/img/dinner.webp"
                 alt="Dinner"
+                width="160"
+                height="160"
+                loading="lazy"
+                decoding="async"
               />
               <div class="card-body text-center">
                 <a href="" class="ms-btn-recipes btn btn-primary w-100"
@@ -344,6 +360,10 @@ export default {
                 class="card-img-top"
                 src="../assets/img/drinks.webp"
                 alt="Drinks"
+                width="160"
+                height="160"
+                loading="lazy"
+                decoding="async"
               />
               <div class="card-body text-center">
                 <a href="" class="ms-btn-recipes btn btn-primary w-100"
@@ -359,6 +379,10 @@ export default {
                 class="card-img-top"
                 src="../assets/img/healthy.webp"
                 alt="healthy"
+                width="160"
+                height="160"
+                loading="lazy"
+                decoding="async"
               />
               <div class="card-body text-center">
                 <a href="" class="ms-btn-recipes btn btn-primary w-100"
@@ -374,6 +398,10 @@ export default {
                 class="card-img-top"
                 src="../assets/img/quick-easy.webp"
                 alt="quick"
+                width="160"
+                height="160"
+                loading="lazy"
+                decoding="async"
               />
               <div class="card-body text-center">
                 <a href="" class="ms-btn-recipes btn btn-primary w-100"
@@ -389,6 +417,10 @@ export default {
                 class="card-img-top"
                 src="../assets/img/soups.webp"
                 alt="soup"
+                width="160"
+                height="160"
+                loading="lazy"
+                decoding="async"
               />
               <div class="card-body text-center">
                 <a href="" class="ms-btn-recipes btn btn-primary w-100"
@@ -403,6 +435,10 @@ export default {
                 class="card-img-top"
                 src="../assets/img/staff-picks.webp"
                 alt="staff"
+                width="160"
+                height="160"
+                loading="lazy"
+                decoding="async"
               />
               <div class="card-body text-center">
                 <a href="" class="ms-btn-recipes btn btn-primary w-100"
@@ -437,11 +473,11 @@ export default {
     <div class="row">
       <div class="col-md-6 col-sm-6 justify-content-around mb-3">
         <div class="card">
-          <img src="../assets/img/sushi.jpg" alt="" />
+          <img class="img-fluid" src="../assets/img/sushi.jpg" alt="" width="800" height="527" loading="lazy" decoding="async" />
           <div class="card-body">
-            <h5 class="card-title">
+            <h3 class="h5 card-title">
               Food corner: Top Japanese Restaurants for Sushi
-            </h5>
+            </h3>
             <p class="card-text">
               Suspendisse at semper odio. Nam fringilla scelerisque tincidunt.
               Orci varius natoque penatibus et magnis dis parturient montes,
@@ -464,24 +500,30 @@ export default {
       <div class="col-md-6 col-sm-6">
         <div class="container col-6">
           <div class="card ms_image mb-4">
-            <a href="">
+            <!-- il banner dice "View our latest recipes": link alle ricette, con quel testo come nome -->
+            <router-link :to="{ name: 'recipes' }">
               <img
-                class="img-our-recipe"
+                class="img-our-recipe img-fluid"
                 src="../assets/img/bg-card-recipes.jpg"
-                alt=""
+                alt="View our latest recipes"
+                width="640"
+                height="844"
+                loading="lazy"
+                decoding="async"
               />
-            </a>
+            </router-link>
           </div>
         </div>
 
         <!-- SECONDA CARD A DESTRA -->
         <div class="container col-6">
           <div class="card ms_image mb-4">
-            <a href="">
-              <img class="" src="../assets/img/singapore.jpg" alt="" />
+            <!-- link finto, doppione del titolo qui sotto: fuori dalla tastiera e dagli screen reader -->
+            <a href="" aria-hidden="true" tabindex="-1">
+              <img class="img-fluid" src="../assets/img/singapore.jpg" alt="" width="400" height="263" loading="lazy" decoding="async" />
             </a>
             <div class="align-items justify-content-center text-center">
-              <h5><a href="">City Guides Singapore</a></h5>
+              <h3 class="h5"><a href="">City Guides Singapore</a></h3>
             </div>
             <a href="" class="btn btn-primary ms-btn"
               >View all City Guides <i class="fa-solid fa-globe"></i
@@ -493,8 +535,8 @@ export default {
           <div class="input-group mb-3">
             <div class="input-group-prepend">
               <span class="input-group-text" id="inputGroup-sizing-default"
-                ><button class="btn-search">
-                  <i class="fa-solid fa-magnifying-glass"></i></button
+                ><button class="btn-search" type="button" aria-label="Search">
+                  <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i></button
               ></span>
             </div>
             <input
@@ -522,19 +564,23 @@ export default {
                 class="ms-img-rounded"
                 src="../assets/img/sushi.jpg"
                 alt=""
+                width="60"
+                height="60"
+                loading="lazy"
+                decoding="async"
               />
             </div>
             <div>
-              <h6>Food Corner: Top Japanese Restaurants for Sushi</h6>
+              <h4 class="h6">Food Corner: Top Japanese Restaurants for Sushi</h4>
               <p>March 25th, 2019</p>
             </div>
           </div>
           <div class="container p-2 d-flex">
             <div class="ms-img">
-              <img class="ms-img-rounded" src="../assets/img/riso.jpg" alt="" />
+              <img class="ms-img-rounded" src="../assets/img/riso.jpg" alt="" width="60" height="60" loading="lazy" decoding="async" />
             </div>
             <div>
-              <h6>Roundup: My new Favourite Recipes For Healthy Living</h6>
+              <h4 class="h6">Roundup: My new Favourite Recipes For Healthy Living</h4>
               <p>March 25th, 2019</p>
             </div>
           </div>
@@ -544,10 +590,14 @@ export default {
                 class="ms-img-rounded"
                 src="../assets/img/kimchi.jpg"
                 alt=""
+                width="60"
+                height="60"
+                loading="lazy"
+                decoding="async"
               />
             </div>
             <div>
-              <h6>Meal Prep: Korean Bibimbap with Kimchi</h6>
+              <h4 class="h6">Meal Prep: Korean Bibimbap with Kimchi</h4>
               <p>March 25th, 2019</p>
             </div>
           </div>
@@ -559,7 +609,8 @@ export default {
   <!-- CONTAINER FINALE CON BAKGROUND -->
   <div class="container last-bg">
     <div class="container text-center">
-      <h1>Subscribe <span class="text-orange">&</span> Receive A Free eBook</h1>
+      <!-- un solo h1 per pagina (quello dell'hero): questo è un h2 con la dimensione di un h1 -->
+      <h2 class="h1">Subscribe <span class="text-orange">&</span> Receive A Free eBook</h2>
       <p>
         Aliquam erat volutpat. Ut quis ligula a magna blandit finibus.
         Suspendisse maximus lacus non nunc lacinia lobortis.
@@ -569,7 +620,7 @@ export default {
           type="email"
           class="form-control"
           placeholder="Insert your email"
-          aria-label="Recipient's username"
+          aria-label="Your email address"
           aria-describedby="basic-addon2"
         />
         <div class="input-group-append">
@@ -591,6 +642,12 @@ export default {
   padding-bottom: 220px;
   margin: 0 auto;
   height: 700px;
+
+  /* sul telefono la foto dell'hero intera (355 KB) non serve: una versione ritagliata al centro, più leggera.
+     Se cambi il punto di stacco, cambia anche il media nei <link rel="preload"> di index.html */
+  @media (max-width: 575.98px) {
+    background-image: url("../assets/img/bg-1-mobile.webp");
+  }
 
   .ms-btn-home {
     border: none;
@@ -614,7 +671,7 @@ a {
   color: black;
 }
 .ms-banner-text:hover {
-  color: #fc7523;
+  color: #c8500a; /* arancio scuro: il #fc7523 su bianco non arrivava a 4,5:1 */
 }
 
 /* CARD CON CIBO */
@@ -628,7 +685,8 @@ a {
 .ms-btn,
 .ms-btn-home,
 .ms-btn-recipes {
-  background-color: #fc7523;
+  /* arancio scuro: con il testo bianco il #fc7523 dava 2,7:1, questo 4,6:1 */
+  background-color: #c8500a;
   color: white;
   border: none;
   border-radius: 0%;
@@ -638,8 +696,15 @@ a {
   height: 200px;
 }
 
+/* le foto delle card riempiono il riquadro senza stirarsi (prima 386x200 su una foto 3:2) */
+img.ms-img {
+  width: 100%;
+  object-fit: cover;
+}
+
 /* CULINARY COLLECTION */
 .card-img-top {
+  height: auto; /* con width/height negli <img> la proporzione resta quella naturale */
   position: relative;
   
   img {
@@ -692,6 +757,7 @@ a {
     height: 60px;
     width: 60px;
     border-radius: 50%;
+    object-fit: cover; /* la foto è rettangolare: ritagliata, non stirata nel cerchio */
   }
 }
 
@@ -704,7 +770,7 @@ a {
   padding: 100px;
 
   .text-orange {
-    color: #fc7523;
+    color: #c8500a;
   }
 }
 

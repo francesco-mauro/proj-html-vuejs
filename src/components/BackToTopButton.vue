@@ -3,8 +3,8 @@ export default {};
 </script>
 
 <template>
-  <a href="#" class="back-top">
-    <i class="fa-solid fa-chevron-up"></i>
+  <a href="#" class="back-top" aria-label="Back to top">
+    <i class="fa-solid fa-chevron-up" aria-hidden="true"></i>
   </a>
 </template>
 

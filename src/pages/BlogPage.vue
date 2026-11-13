@@ -87,7 +87,7 @@ export default {
       <div class="col-12 col-md-6 col-lg-4" v-for="post in posts" :key="post.title">
         <article class="card ms-pg-card">
           <div class="ms-pg-img">
-            <img :src="post.image" :alt="post.alt" />
+            <img :src="post.image" :alt="post.alt" loading="lazy" decoding="async" />
           </div>
           <div class="card-body">
             <span class="ms-pg-tag">{{ post.category }}</span>

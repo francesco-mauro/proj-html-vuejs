@@ -108,7 +108,7 @@ export default {
       <div class="col-12 col-md-6 col-lg-4" v-for="recipe in recipes" :key="recipe.title">
         <article class="card ms-pg-card">
           <div class="ms-pg-img">
-            <img :src="recipe.image" :alt="recipe.alt" />
+            <img :src="recipe.image" :alt="recipe.alt" loading="lazy" decoding="async" />
           </div>
           <div class="card-body">
             <span class="ms-pg-tag">{{ recipe.category }}</span>

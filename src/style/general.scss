@@ -3,6 +3,36 @@
 // Fontawesome
 @import "@fortawesome/fontawesome-free/css/all.min.css";
 
+// Font Awesome alleggerito: i file originali pesano 300 KB (solid, brands, regular con migliaia di icone)
+// e su telefono ritardavano la pagina. Qui sotto le stesse famiglie, ridotte alle sole icone usate dal sito
+// (3,5 KB in tutto), dichiarate DOPO l'import così sostituiscono quelle di Font Awesome, con font-display: swap.
+// Derivati dai font Font Awesome Free (SIL OFL 1.1, node_modules/@fortawesome/fontawesome-free/LICENSE.txt).
+// Se aggiungi un'icona nuova va rigenerato il file, altrimenti al suo posto si vede un quadratino vuoto:
+//   python -m fontTools.subset node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2 //     --unicodes=f002,f017,f077,f07a,f0ac,f0e0,f14a,f15c,f2e7,f3c5,f5da,f65e,f879 --flavor=woff2 //     --layout-features= --no-hinting --output-file=src/assets/fonts/fa-solid-subset.woff2
+//   (stesso comando per fa-regular-400.woff2 con f017,f133 e fa-brands-400.woff2 con e61b,f167,f16d,f39e;
+//    il codice di ogni icona è nel suo `content` dentro node_modules/@fortawesome/fontawesome-free/css/all.css)
+@font-face {
+  font-family: "Font Awesome 6 Free";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("../assets/fonts/fa-solid-subset.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Font Awesome 6 Free";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../assets/fonts/fa-regular-subset.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Font Awesome 6 Brands";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../assets/fonts/fa-brands-subset.woff2") format("woff2");
+}
+
 body{
     background-color: #f5f5f1;
 }

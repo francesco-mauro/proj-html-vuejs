@@ -27,48 +27,48 @@
                     <div class="row g-0">
                         <div class="col-6 my-hover-card">
                             <div class="img-container img-container-hero">
-                                <img src="../assets/img/banana.jpg" alt="Bowl of fresh fruit with chocolate" class="img-fluid my-hover-img">
+                                <img src="../assets/img/banana.jpg" alt="Bowl of fresh fruit with chocolate" class="img-fluid my-hover-img" width="800" height="527" loading="lazy" decoding="async">
                             </div>
                         </div>
                         <div class="col-6 my-hover-card">
                             <div class="img-container img-container-hero">
-                                <img src="../assets/img/beans.jpg" alt="Pan of greens, chickpeas and vegetables" class="img-fluid my-hover-img">
-                            </div>
-                        </div>
-                        <div class="col-6 my-hover-card">
-                            <div class="img-container img-container-hero">
-
-                                <img src="../assets/img/kimchi.jpg" alt="Korean dishes with bibimbap and side dishes" class="img-fluid my-hover-img">
+                                <img src="../assets/img/beans.jpg" alt="Pan of greens, chickpeas and vegetables" class="img-fluid my-hover-img" width="800" height="527" loading="lazy" decoding="async">
                             </div>
                         </div>
                         <div class="col-6 my-hover-card">
                             <div class="img-container img-container-hero">
 
-                                <img src="../assets/img/egg-fruit.jpg" alt="Breakfast table with waffles, eggs and fruit" class="img-fluid my-hover-img">
+                                <img src="../assets/img/kimchi.jpg" alt="Korean dishes with bibimbap and side dishes" class="img-fluid my-hover-img" width="400" height="263" loading="lazy" decoding="async">
                             </div>
                         </div>
                         <div class="col-6 my-hover-card">
                             <div class="img-container img-container-hero">
 
-                                <img src="../assets/img/ice-cream.jpg" alt="Bowls of ice cream in different flavours" class="img-fluid my-hover-img">
+                                <img src="../assets/img/egg-fruit.jpg" alt="Breakfast table with waffles, eggs and fruit" class="img-fluid my-hover-img" width="800" height="527" loading="lazy" decoding="async">
                             </div>
                         </div>
                         <div class="col-6 my-hover-card">
                             <div class="img-container img-container-hero">
 
-                                <img src="../assets/img/sushi.jpg" alt="Sushi rolls on wooden boards" class="img-fluid my-hover-img">
+                                <img src="../assets/img/ice-cream.jpg" alt="Bowls of ice cream in different flavours" class="img-fluid my-hover-img" width="800" height="527" loading="lazy" decoding="async">
                             </div>
                         </div>
                         <div class="col-6 my-hover-card">
                             <div class="img-container img-container-hero">
 
-                                <img src="../assets/img/drink.jpg" alt="Pink cocktail poured into a glass" class="img-fluid my-hover-img">
+                                <img src="../assets/img/sushi.jpg" alt="Sushi rolls on wooden boards" class="img-fluid my-hover-img" width="800" height="527" loading="lazy" decoding="async">
                             </div>
                         </div>
                         <div class="col-6 my-hover-card">
                             <div class="img-container img-container-hero">
 
-                                <img src="../assets/img/riso.jpg" alt="Grilled meat with rice on sizzling plates" class="img-fluid my-hover-img">
+                                <img src="../assets/img/drink.jpg" alt="Pink cocktail poured into a glass" class="img-fluid my-hover-img" width="800" height="527" loading="lazy" decoding="async">
+                            </div>
+                        </div>
+                        <div class="col-6 my-hover-card">
+                            <div class="img-container img-container-hero">
+
+                                <img src="../assets/img/riso.jpg" alt="Grilled meat with rice on sizzling plates" class="img-fluid my-hover-img" width="400" height="263" loading="lazy" decoding="async">
                             </div>
                         </div>
                     </div>
@@ -151,7 +151,7 @@
                     <div class="col-md-4 mb-4">
                         <div class="card my-hover-card">
                             <div class="img-container">
-                                <img src="../assets/img/achievment-1.jpg" class="card-img-top my-hover-img" alt="Award plaque">
+                                <img src="../assets/img/achievment-1.jpg" class="card-img-top my-hover-img" alt="Award plaque" width="400" height="225" loading="lazy" decoding="async">
                             </div>
                             <div class="card-body">
                                 <h3 class="h5 card-title">Best Food Blog of 2018</h3>
@@ -164,7 +164,7 @@
                         <div class="card my-hover-card">
                             <div class="img-container">
                                 <img src="../assets/img/achievment-2.jpg" class="card-img-top my-hover-img"
-                                    alt="Trophy on a shelf">
+                                    alt="Trophy on a shelf" width="400" height="225" loading="lazy" decoding="async">
                             </div>
                             <div class="card-body">
                                 <h3 class="h5 card-title">Break-Through Recipe #1</h3>
@@ -177,7 +177,7 @@
                         <div class="card my-hover-card">
                             <div class="img-container">
                                 <img src="../assets/img/achievment-3.jpg" class="card-img-top my-hover-img"
-                                    alt="Heart-shaped waffle">
+                                    alt="Heart-shaped waffle" width="400" height="225" loading="lazy" decoding="async">
                             </div>
                             <div class="card-body">
                                 <h3 class="h5 card-title">Best Food Blog of 2018</h3>
@@ -200,7 +200,7 @@
                     <div class="col-md-6">
                         <div class="card mb-4 text-center p-4">
                             <img src="../assets/img/Testimonials-1.jpg" class="rounded-circle mx-auto d-block mb-3"
-                                alt="Jean Valdez">
+                                alt="Jean Valdez" width="100" height="100" loading="lazy" decoding="async">
                             <div class="quote mb-0">
                                 <p>Nulla vehicula urna vel velit porttitor, ac auctor sem efficitur.
                                     Praesent eleifend ante nec condimentum accumsan. Nam elit enim, rhoncus quis
@@ -214,7 +214,7 @@
                     <div class="col-md-6">
                         <div class="card mb-4 p-4 d-flex flex-row align-items-center testimonial-quote">
                             <img src="../assets/img/Avada-review-1.png" class="rounded-circle mr-3 testimonial-pic"
-                                alt="Avada Food Review logo">
+                                alt="Avada Food Review logo" width="428" height="452" loading="lazy" decoding="async">
                             <div class="quote mb-0 flex-grow-1">
                                 <p>One of the best food blog of 2018 about organic food and unique recipes.
                                     Proin vel iaculis turpis.</p>
@@ -224,7 +224,7 @@
                         </div>
                         <div class="card mb-4 p-4 d-flex flex-row align-items-center testimonial-quote">
                             <img src="../assets/img/Avada-review-2.webp" class="rounded-circle mr-3 testimonial-pic"
-                                alt="Avada Food Review badge">
+                                alt="Avada Food Review badge" width="237" height="226" loading="lazy" decoding="async">
                             <div class="quote mb-0 flex-grow-1">
                                 <p>Best blog for American Recipes and very good for learning cookings for
                                     anyone. Praesent id tempus sem.</p>
@@ -249,7 +249,7 @@
                             <div class="img-container">
 
                                 <img src="../assets/img/Wayne-Barnett.jpg" class="card-img-top my-hover-img"
-                                    alt="Wayne Barnett">
+                                    alt="Wayne Barnett" width="400" height="429" loading="lazy" decoding="async">
                             </div>
                             <div class="card-body">
                                 <h3 class="h5 card-title">Wayne Barnett</h3>
@@ -262,7 +262,7 @@
                             <div class="img-container">
 
                                 <img src="../assets/img/Angela-Caroll.jpg" class="card-img-top my-hover-img"
-                                    alt="Angela Caroll">
+                                    alt="Angela Caroll" width="400" height="429" loading="lazy" decoding="async">
                             </div>
                             <div class="card-body">
                                 <h3 class="h5 card-title">Angela Caroll</h3>
@@ -275,7 +275,7 @@
                             <div class="img-container">
 
                                 <img src="../assets/img/Walter-Gordon.jpg" class="card-img-top my-hover-img"
-                                    alt="Walter Gordon">
+                                    alt="Walter Gordon" width="400" height="429" loading="lazy" decoding="async">
                             </div>
                             <div class="card-body">
                                 <h3 class="h5 card-title">Walter Gordon</h3>
@@ -290,7 +290,7 @@
                             <div class="img-container">
 
                                 <img src="../assets/img/Angela-Lopez.jpg" class="card-img-top my-hover-img"
-                                    alt="Angela Lopez">
+                                    alt="Angela Lopez" width="400" height="429" loading="lazy" decoding="async">
                             </div>
                             <div class="card-body">
                                 <h3 class="h5 card-title">Angela Lopez</h3>
@@ -303,7 +303,7 @@
                             <div class="img-container">
 
                                 <img src="../assets/img/Scott-Estrada.jpg" class="card-img-top my-hover-img"
-                                    alt="Scott Estrada">
+                                    alt="Scott Estrada" width="400" height="429" loading="lazy" decoding="async">
                             </div>
                             <div class="card-body">
                                 <h3 class="h5 card-title">Scott Estrada</h3>
@@ -316,7 +316,7 @@
                             <div class="img-container">
 
                                 <img src="../assets/img/Barbara-Ramos.jpg" class="card-img-top my-hover-img"
-                                    alt="Barbara Ramos">
+                                    alt="Barbara Ramos" width="400" height="429" loading="lazy" decoding="async">
                             </div>
                             <div class="card-body">
                                 <h3 class="h5 card-title">Barbara Ramos</h3>
@@ -530,7 +530,7 @@
     .quote footer {
         margin-top: 15px;
         font-size: 0.9em;
-        color: #777;
+        color: #757575; /* il #777 su bianco dava 4,47:1 */
     }
 
     .text-center .card {
@@ -567,7 +567,8 @@
     }
 
     .we-are-hiring-section .btn {
-        background-color: #fc7523;
+        /* arancio scuro: con il testo bianco il #fc7523 dava 2,7:1, questo 4,6:1 */
+        background-color: #c8500a;
         color: white;
         padding: 10px 20px;
         font-size: 1rem;
@@ -576,6 +577,6 @@
     }
 
     .we-are-hiring-section .btn:hover {
-        background-color: #e3691f;
+        background-color: #a94207;
     }
 </style>

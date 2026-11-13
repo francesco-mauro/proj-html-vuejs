@@ -44,6 +44,10 @@ export default {
           src="../assets/img/banana.jpg"
           alt=""
           class="img-fluid"
+          width="800"
+          height="527"
+          loading="lazy"
+          decoding="async"
         />
         <div class="ms_content">
           <p>Fruit Platter with Banana, Mango, Berries and Orange</p>
@@ -54,6 +58,10 @@ export default {
           src="../assets/img/egg-fruit.jpg"
           alt=""
           class="img-fluid"
+          width="800"
+          height="527"
+          loading="lazy"
+          decoding="async"
         />
         <div class="ms_content">
           <p>Breakfast Delight With Strawberry, Egg and Fruit</p>
@@ -64,6 +72,10 @@ export default {
           src="../assets/img/ice-cream.jpg"
           alt=""
           class="img-fluid"
+          width="800"
+          height="527"
+          loading="lazy"
+          decoding="async"
         />
         <div class="ms_content">
           <p>Ice Cream Heaven with vanilla Chocolate and Pistacchio</p>
@@ -74,6 +86,10 @@ export default {
           src="../assets/img/summer-drink.jpg"
           alt=""
           class="img-fluid"
+          width="800"
+          height="527"
+          loading="lazy"
+          decoding="async"
         />
         <div class="ms_content">
           <p>Video Recipe: How to Make a Cool Summer Drink</p>
@@ -94,6 +110,10 @@ export default {
             src="../assets/img/footer-logo-mobile.png"
             alt="logo avada food"
             class="img-fluid ms_logo"
+            width="284"
+            height="124"
+            loading="lazy"
+            decoding="async"
           />
         </div>
 
@@ -117,41 +137,49 @@ export default {
 
       <!-- Section 3 -->
       <div class="col-md-3 ms_contact">
-        <h6 class="text-uppercase mb-4 font-weight-bold ms_text-orange">
+        <!-- h2 con la dimensione di un h6: nell'ordine dei titoli non si salta da h1/h2 a h6 -->
+        <h2 class="h6 text-uppercase mb-4 font-weight-bold ms_text-orange">
           Contact US
-        </h6>
+        </h2>
 
+        <!-- gli <hr> stanno dentro i <li>: in una <ul> sono permessi solo <li> -->
         <ul class="list-unstyled">
-          <li class="d-flex flex-row gap-3">
-            <div>
-              <i class="fa-solid fa-location-dot ms_text-orange"></i>
+          <li>
+            <div class="d-flex flex-row gap-3">
+              <div>
+                <i class="fa-solid fa-location-dot ms_text-orange" aria-hidden="true"></i>
+              </div>
+              <div>12345 Avada Main Street, New York, NY 555555</div>
             </div>
-            <div>12345 Avada Main Street, New York, NY 555555</div>
+            <hr />
           </li>
-          <hr />
 
-          <li class="d-flex flex-row gap-3">
-            <div><i class="fa-solid fa-phone-flip ms_text-orange"></i></div>
-            <div>+ 0100-505-0000</div>
-          </li>
-          <hr />
-
-          <li class="d-flex flex-row gap-3">
-            <div>
-              <i class="fa-solid fa-envelope ms_text-orange"></i>
+          <li>
+            <div class="d-flex flex-row gap-3">
+              <div><i class="fa-solid fa-phone-flip ms_text-orange" aria-hidden="true"></i></div>
+              <div>+ 0100-505-0000</div>
             </div>
-            <div>info@avada-domain.com</div>
+            <hr />
           </li>
-          <hr />
+
+          <li>
+            <div class="d-flex flex-row gap-3">
+              <div>
+                <i class="fa-solid fa-envelope ms_text-orange" aria-hidden="true"></i>
+              </div>
+              <div>info@avada-domain.com</div>
+            </div>
+            <hr />
+          </li>
         </ul>
       </div>
       <!-- /Section 3 -->
 
       <!-- Section 4  -->
       <div class="col-md-3">
-        <h6 class="text-uppercase mb-4 font-weight-bold ms_text-orange">
+        <h2 class="h6 text-uppercase mb-4 font-weight-bold ms_text-orange">
           GET OUR APP
-        </h6>
+        </h2>
         <div class="d-flex flex-column gap-3">
           <!-- GooglePlay -->
           <a href="#">
@@ -159,6 +187,10 @@ export default {
               src="../assets/img/download-android.png"
               alt="GooglePlay"
               class="ms_logo"
+              width="280"
+              height="92"
+              loading="lazy"
+              decoding="async"
           /></a>
           <!-- AppStore -->
           <a href="#">
@@ -166,6 +198,10 @@ export default {
               src="../assets/img/download-app-store.png"
               alt="AppStore"
               class="ms_logo"
+              width="280"
+              height="92"
+              loading="lazy"
+              decoding="async"
             />
           </a>
         </div>
@@ -197,7 +233,8 @@ export default {
   font-size: 0.75em;
 
   a {
-    text-decoration: none;
+    // i link dentro il testo si distinguono con la sottolineatura, non solo dal colore
+    text-decoration: underline;
     color: black;
   }
 }
@@ -228,6 +265,10 @@ export default {
 // Colori
 .ms_text-orange {
   color: #fc7523;
+}
+// i titoli arancio sono testo: il #fc7523 su bianco dava 2,7:1, l'arancio scuro 4,6:1 (le icone restano chiare)
+h2.ms_text-orange {
+  color: #c8500a;
 }
 
 .bg_lightgrey {
@@ -325,7 +366,7 @@ export default {
 }
 
 .nav-icons a:hover {
-  color: orange;
+  color: #c8500a; // l'«orange» su bianco dava 2:1
 }
 
 .nav-icons a:hover:after {
@@ -337,7 +378,7 @@ export default {
 // Classe Active
 
 .nav-icons .router-link-active {
-  color: orange;
+  color: #c8500a; // l'«orange» su bianco dava 2:1
   height: 100%;
 }
 

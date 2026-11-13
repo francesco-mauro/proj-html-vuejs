@@ -110,7 +110,8 @@
   }
 
   .ios-orange{
-    background-color: #FA7523;
+    /* arancio scuro: con il testo bianco il #FA7523 dava 2,75:1, questo 4,6:1 */
+    background-color: #c8500a;
     color: white;
   }
 
@@ -164,8 +165,9 @@
     transition: 0.3s;
   }
 
+  /* arancio scuro: l'«orange» su fondo avorio dava 1,8:1, questo 4,8:1 */
   .nav-icons a:hover {
-    color: orange;
+    color: #b84a08;
   }
 
   .nav-icons a:hover:after {
@@ -175,7 +177,7 @@
   /* ---------------------------  Active class with router link ------------------------ */
 
   .nav-icons .router-link-active {
-    color: orange;
+    color: #b84a08;
   }
 
   .nav-icons .router-link-active:after {

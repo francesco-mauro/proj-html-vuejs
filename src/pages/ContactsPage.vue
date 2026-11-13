@@ -30,10 +30,10 @@ export default {
         <!-- Office Section -->
         <div class="container col-md-8 bg_white mt-2 d-flex p-4 gap-4">
           <div class="ms_icon">
-            <i class="fas fa-map-marker-alt"></i>
+            <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
           </div>
           <div>
-            <h6>MAIN OFFICE</h6>
+            <h2 class="h6">MAIN OFFICE</h2>
             <p>12345 Avada Main Street, New York, NY 555555</p>
           </div>
         </div>
@@ -42,10 +42,10 @@ export default {
         <!-- Contact Section -->
         <div class="container col-md-8 bg_white mt-2 d-flex p-4 gap-4">
           <div class="ms_icon">
-            <i class="fas fa-phone-alt"></i>
+            <i class="fas fa-phone-alt" aria-hidden="true"></i>
           </div>
           <div>
-            <h6>QUICK CONTACT</h6>
+            <h2 class="h6">QUICK CONTACT</h2>
             <p>+ 0100-505-0000</p>
           </div>
         </div>
@@ -54,10 +54,10 @@ export default {
         <!-- Hours Section -->
         <div class="container col-md-8 bg_white mt-2 d-flex p-4 gap-4">
           <div class="ms_icon">
-            <i class="fas fa-clock"></i>
+            <i class="fas fa-clock" aria-hidden="true"></i>
           </div>
           <div>
-            <h6>OFFICE HOURS</h6>
+            <h2 class="h6">OFFICE HOURS</h2>
             <p>9AM - 5PM (Monday - Friday)</p>
           </div>
         </div>
@@ -76,7 +76,7 @@ export default {
         <!-- Intestazione Form -->
         <div class="container mt-5 p-5">
           <div class="col-md-10">
-            <h6>GET IN TOUCH</h6>
+            <h2 class="h6">GET IN TOUCH</h2>
             <p style="color: #67615a">
               Integer sem velit, bibendum nec lectus sit amet, efficitur mollis
               mauris. Orci varius natoque penatibus et magnis dis parturient
@@ -147,7 +147,8 @@ export default {
     <div
       class="p-5 d-flex justify-content-center align-items-center flex-column bg_grey ms_height"
     >
-      <p style="color: #919292">
+      <!-- il #919292 su grigio chiaro dava 2,3:1: grigio più scuro, 4,9:1 -->
+      <p style="color: #5a5b5b">
         For privacy reasons Google Maps needs your permission to be loaded.
       </p>
       <div>
